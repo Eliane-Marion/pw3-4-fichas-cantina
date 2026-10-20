@@ -1,4 +1,4 @@
-package com.fichas_cantina._bi;
+package com.fichas_cantina;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

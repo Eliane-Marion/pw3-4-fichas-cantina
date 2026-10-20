@@ -1,4 +1,4 @@
-package com.fichas_cantina._bi;
+package com.fichas_cantina;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
