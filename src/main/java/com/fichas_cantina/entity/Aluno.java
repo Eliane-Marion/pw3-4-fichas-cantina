@@ -20,6 +20,47 @@ public class Aluno {
     @Column(name = "NR_SALDO")
     private Double saldo;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "BO_STATUS")
     private StatusRole status;
+
+    public Long getIdAluno() {
+        return idAluno;
+    }
+
+    public void setIdAluno(Long idAluno) {
+        this.idAluno = idAluno;
+    }
+
+    public String getNomeAluno() {
+        return nomeAluno;
+    }
+
+    public void setNomeAluno(String nomeAluno) {
+        this.nomeAluno = nomeAluno;
+    }
+
+    public Integer getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(Integer matricula) {
+        this.matricula = matricula;
+    }
+
+    public Double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(Double saldo) {
+        this.saldo = saldo;
+    }
+
+    public StatusRole getStatus() {
+        return status;
+    }
+
+    public void setStatus(StatusRole status) {
+        this.status = status;
+    }
 }
